@@ -1,5 +1,7 @@
 # Recovery guide
 
+English | [繁體中文](RECOVERY.zh-TW.md)
+
 Print this document before an emergency. Do not write real passwords into a copy stored on the computer.
 
 ## Required items

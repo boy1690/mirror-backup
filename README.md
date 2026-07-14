@@ -1,5 +1,7 @@
 # mirror-backup
 
+English | [繁體中文](README.zh-TW.md)
+
 Privacy-focused, encrypted, versioned backups for Windows.
 
 `mirror-backup` maintains two independent [restic](https://restic.net/) repositories:
@@ -87,7 +89,7 @@ Third-party binaries are intentionally not committed to this repository.
 
 ## Recovery
 
-Read [docs/RECOVERY.md](docs/RECOVERY.md) before an emergency. Keep a printed copy with each repository password and repository ID, separate from the computer and offline drive.
+Read [docs/RECOVERY.md](docs/RECOVERY.md) ([繁體中文版](docs/RECOVERY.zh-TW.md)) before an emergency. Keep a printed copy with each repository password and repository ID, separate from the computer and offline drive.
 
 ## Development and verification
 

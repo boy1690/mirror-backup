@@ -1,5 +1,7 @@
 # Contributing
 
+English | [繁體中文](CONTRIBUTING.zh-TW.md)
+
 Contributions are welcome, especially improvements to recovery verification, accessibility, documentation, and test coverage.
 
 Before opening a pull request:

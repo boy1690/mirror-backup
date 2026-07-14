@@ -1,5 +1,7 @@
 # Threat model
 
+English | [繁體中文](THREAT-MODEL.zh-TW.md)
+
 ## Security goals
 
 `mirror-backup` aims to preserve confidential, versioned, recoverable copies of selected Windows data when one storage layer fails or is corrupted.
