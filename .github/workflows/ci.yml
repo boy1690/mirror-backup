@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  powershell:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse PowerShell
+        shell: powershell
+        run: .\tests\Parse-All.ps1
+      - name: Test configuration
+        shell: powershell
+        run: .\tests\Config.Tests.ps1
+      - name: Scan public tree
+        shell: powershell
+        run: .\tools\scan-secrets.ps1 -Root .

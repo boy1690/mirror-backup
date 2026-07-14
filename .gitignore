@@ -1,0 +1,19 @@
+# Local configuration and runtime secrets
+config/mirror-backup.psd1
+*.local.ps1
+*.dpapi
+
+# Third-party binaries and build output
+*.exe
+*.dll
+bin/
+artifacts/
+
+# PowerShell and editor noise
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Test output
+test-results/
